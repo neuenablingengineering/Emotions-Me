@@ -1,0 +1,11 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+        "Name": "806941466555.dkr.ecr.us-east-1.amazonaws.com/emotions-and-me-backend"
+    },
+    "Ports": [
+        {
+            "ContainerPort": 8000
+        }
+    ]
+}

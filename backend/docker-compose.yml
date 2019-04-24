@@ -1,0 +1,20 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: config/app/Dockerfile
+    hostname: app
+    volumes:
+      - ./app:/app
+    expose:
+      - "8000"
+  nginx:
+    image: nginx
+    hostname: nginx
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./config/nginx:/etc/nginx/conf.d
+    depends_on:
+      - app 

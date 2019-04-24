@@ -1,0 +1,12 @@
+# User-specific stuff
+.idea/**
+db.sqlite3
+venv/**
+**/__pycache__/**
+**/.ssh/**
+**/migrations/**
+app/static/**
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

@@ -1,0 +1,8 @@
+option_settings:
+  - namespace: aws:elb:listener:443
+    SSLCertificateId: arn:aws:acm:us-east-1:806941466555:certificate/8f1a7fc2-0306-4cd5-ac07-5d8872b30517
+    ListenerProtocol: HTTPS
+    InstancePort: 80
+  - namespace: aws:elb:policies
+    option_name: ConnectionSettingIdleTimeout
+    value: 3600
