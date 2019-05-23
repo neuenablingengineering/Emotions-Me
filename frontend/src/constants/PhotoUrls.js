@@ -1,115 +1,91 @@
 const angryPhotos = [
     {
         label: "Angry Woman Yelling",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/ANGRY/1.jpeg",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Angry/1.jpg",
     },
     {
-        label: "Angry Woman Pointing",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/ANGRY/3.jpeg",
+        label: "Angry Child Glaring",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Angry/2.jpg",
     },
     {
-        label: "Angry Woman Glaring",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/ANGRY/6.jpeg",
+        label: "Angry Man Yelling",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Angry/3.jpg",
     },
     {
-        label: "Angry Man Glaring",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/ANGRY/9.jpeg",
-    },
-    {
-        label: "Angry Man Pointing",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/ANGRY/10.jpeg"
+        label: "Angry Child Yelling",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Angry/4.jpg",
     }
 ];
 
 const happyPhotos = [
     {
-        label: "Happy Man Smiling 1",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/HAPPY/1.png",
+        label: "Happy Child Smiling",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Happy/1.jpg",
     },
     {
-        label: "Happy Man Smiling 2",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/HAPPY/2.png",
+        label: "Happy Woman Smiling",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Happy/2.jpg",
     },
     {
-        label: "Happy Man Smiling 3",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/HAPPY/3.png",
+        label: "Happy Old Man Smiling",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Happy/3.jpg",
     },
     {
-        label: "Happy Man Smiling 4",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/HAPPY/4.png",
+        label: "Happy Man Smiling",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Happy/4.jpg",
     }
 ];
 
 const neutralPhotos = [
     {
-        label: "Neutral Woman 1",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/NEUTRAL/1.jpg",
+        label: "Neutral Man 1",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Neutral/1.jpg",
     },
     {
-        label: "Neutral Girl",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/NEUTRAL/2.jpg",
+        label: "Neutral Woman",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Neutral/2.jpg",
     },
     {
-        label: "Neutral Woman 2",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/NEUTRAL/3.jpg",
-    },
-    {
-        label: "Neutral Man",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/NEUTRAL/4.jpg",
+        label: "Neutral Man 2",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Neutral/3.jpg",
     }
 ];
 
 const fearPhotos = [
     {
-        label: "Scared Man on Phone",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/FEAR/1.jpg",
+        label: "Scared Woman",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Fear/1.jpg",
     },
     {
-        label: "Scared Man Crying",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/FEAR/2.jpg",
+        label: "Scared Girl",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Fear/2.jpg",
     },
     {
-        label: "Scared Couple 1",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/FEAR/3.jpg",
-    },
-    {
-        label: "Scared Couple 2",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/FEAR/4.jpg",
+        label: "Scared Boy",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Fear/3.jpg",
     },
     {
         label: "Scared Man",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/FEAR/6.jpg",
-    },
-    {
-        label: "Scared Old Man",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/FEAR/7.jpg",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Fear/4.jpg",
     }
 ];
 
 const disgustPhotos = [
     {
-        label: "Disgusted Man 1",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/DISGUST/5.jpg",
-    },
-    {
-        label: "Disgusted Man 2",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/DISGUST/6.jpg",
-    },
-    {
-        label: "Disgusted Man with Hand Up",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/DISGUST/1.jpg",
+        label: "Disgusted Child",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Disgust/1.jpg",
     },
     {
         label: "Disgusted Woman 1",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/DISGUST/2.jpg",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Disgust/2.png",
+    },
+    {
+        label: "Disgusted Man",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Disgust/3.jpg",
     },
     {
         label: "Disgusted Woman 2",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/DISGUST/3.jpg",
-    },
-    {
-        label: "Disgusted Girl",
-        url: "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/DISGUST/4.jpg",
+        url: "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Disgust/4.jpg",
     }
 ];
 
