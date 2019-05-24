@@ -24,7 +24,7 @@ class UrlView(APIView):
 
     def create_entry(self, url, min_width=640):
         output = "processed_video_{}.mp4".format(int(time.time()))
-        aws_link = "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/"
+        aws_link = "https://s3.amazonaws.com/emotions-and-me-bucket/"
         path = os.path.join(aws_link, output)
 
         v = ProcessedVideo(original_url=url, processed_video_name=output, saved_path=path)
@@ -39,7 +39,7 @@ class UrlView(APIView):
 
         if serializer.is_valid():
             if 'debug' in serializer.data:
-                return Response("https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/script_output.mp4",
+                return Response("https://s3.amazonaws.com/emotions-and-me-bucket/script_output.mp4",
                                 status=status.HTTP_201_CREATED)
 
             elif 'url' in serializer.data:
