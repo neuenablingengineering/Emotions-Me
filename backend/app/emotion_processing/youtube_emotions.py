@@ -213,7 +213,7 @@ def youtube_emotions_pipeline(url, processed_video_name, video_entry, min_width=
         move_command = 'aws s3 cp {} s3://emotions-and-me-bucket/ --acl public-read'.format(processed_video_name)
         sp.call([move_command], shell=True)
 
-        aws_link = "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/"
+        aws_link = "https://s3.amazonaws.com/emotions-and-me-bucket/"
         
         setattr(video_entry, "status", 'SUCCEEDED')
         video_entry.save()
