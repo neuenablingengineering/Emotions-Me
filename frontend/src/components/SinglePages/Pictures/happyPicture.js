@@ -51,10 +51,10 @@ export class happyPictureCarousel extends Component {
                                 minSwipeThreshold={40}
                                 swipeTimeThreshold={200}
                                 images={[
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/HAPPY/1.png",
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/HAPPY/2.png",
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/HAPPY/3.png",
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/HAPPY/4.png",
+                                    "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Happy/1.jpg",
+                                    "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Happy/2.jpg",
+                                    "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Happy/3.jpg",
+                                    "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Happy/4.jpg",
                                 ]}
                             />
                         )}
