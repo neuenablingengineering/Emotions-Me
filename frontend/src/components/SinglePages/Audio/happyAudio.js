@@ -9,33 +9,33 @@ export  class happyAudioPlayer extends Component {
         songs: [
             {
                 position: '1',
-                songName: 'A Little Happy - "Don\'t forget a jacket"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/HAPPY/1.wav'
+                songName: 'Very Happy - "I would like a new alarm clock"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Happy/IWL_HAP_VE.wav'
             },
             {
                 position: '2',
                 songName: 'Somewhat Happy - "I\'m on my way to the meeting"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/HAPPY/2.wav'
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Happy/IOM_HAP_SO.wav'
             },
             {
                 position: '3',
                 songName: 'Somewhat Happy - "The airplane is almost full"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/HAPPY/7.wav'
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Happy/TAI_HAP_SO.wav'
             },
             {
                 position: '4',
-                songName: 'Very Happy - "I would like a new alarm clock"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/HAPPY/4.wav'
+                songName: 'Somewhat Happy - "That is exactly what happened"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Happy/TIE_HAP_SO.wav'
             },
             {
                 position: '5',
-                songName: 'Somewhat Happy - "That is exactly what happened"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/HAPPY/5.wav'
+                songName: 'Somewhat Happy - "Don\'t forget a jacket"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Happy/DFA_HAP_SO.wav'
             },
             {
                 position: '6',
-                songName: 'Somewhat Happy - "Don\'t forget a jacket"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/HAPPY/6.wav'
+                songName: 'A Little Happy - "Don\'t forget a jacket"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Happy/DFA_HAP_LI.wav'
             },
         ],
     };
@@ -43,7 +43,7 @@ export  class happyAudioPlayer extends Component {
     loadPlayList = () =>
         this.setState({
             currentPlayList: {
-                playlistCoverUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/HAPPY/9.jpeg',
+                playlistCoverUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Happy/1.jpg',
                 playlistName: 'HAPPY Playlist',
                 songs: this.state.songs,
                 type: 'album'
