@@ -9,93 +9,93 @@ export  class angryAudioPlayer extends Component {
         songs: [
             {
                 position: '1',
-                songName: 'Very Angry - "I think I\'ve seen this before"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/100.wav'
+                songName: 'Extremely Angry - "It\'s 11 o\'clock"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/IEO_ANG_EX.wav'
             },
             {
                 position: '2',
-                songName: 'Somewhat Angry - "The airplane is almost full"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/10.wav'
+                songName: 'Very Angry - "The airplane is almost full"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/TAI_ANG_VE.wav'
             },
             {
                 position: '3',
-                songName: 'Very Angry - "It\'s 11 o\'clock"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/1000.wav'
+                songName: 'Very Angry - "I think I\'ve seen this before"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/ITS_ANG_VE.wav'
             },
             {
                 position: '4',
-                songName: 'Very Angry - "We\'ll stop in a couple of minutes"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/104.wav'
+                songName: 'Very Angry - "It\'s 11 o\'clock"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/IEO_ANG_VE.wav'
             },
             {
                 position: '5',
-                songName: 'Somewhat Angry - "I wonder what this is about"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/1005.wav'
+                songName: 'Very Angry - "We\'ll stop in a couple of minutes"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/WSI_ANG_VE.wav'
             },
             {
                 position: '6',
-                songName: 'Somewhat Angry - "I think I\'vs seen this before"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/1006.wav'
+                songName: 'Very Angry - "Don\'t forget a jacket"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/DFA_ANG_VE.wav'
             },
             {
                 position: '7',
-                songName: 'Somewhat Angry - "We\'ll stop in a couple of minutes"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/1007.wav'
+                songName: 'Somewhat Angry - "The airplane is almost full"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/TAI_ANG_SO.wav'
             },
             {
                 position: '8',
-                songName: 'Somewhat Angry - "The surface is slick"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/1008.wav'
+                songName: 'Somewhat Angry - "I wonder what this is about"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/IWW_ANG_SO.wav'
             },
             {
                 position: '9',
-                songName: 'Very Angry - "Don\'t forget a jacket"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/1009.wav'
+                songName: 'Somewhat Angry - "I think I\'ve seen this before"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/ITS_ANG_SO.wav'
             },
             {
                 position: '10',
-                songName: 'A Little Angry - "I think I have a doctor\'s appointment"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/1010.wav'
+                songName: 'Somewhat Angry - "We\'ll stop in a couple of minutes"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/WSI_ANG_SO.wav'
             },
             {
                 position: '11',
-                songName: 'Somewhat Angry - "It\'s 11 o\'clock"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/1011.wav'
+                songName: 'Somewhat Angry - "The surface is slick"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/TSI_ANG_SO.wav'
             },
             {
                 position: '12',
-                songName: 'Very Angry - "The airplane is almost full"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/1012.wav'
+                songName: 'Somewhat Angry - "It\'s 11 o\'clock"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/IEO_ANG_SO.wav'
             },
             {
                 position: '13',
-                songName: 'A Little Angry - "We\'ll stop in a couple of minutes"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/1013.wav'
+                songName: 'Somewhat Angry - "I think I have a doctor\'s appointment"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/ITH_ANG_SO.wav'
             },
             {
                 position: '14',
-                songName: 'Extremely Angry - "It\'s 11 o\'clock"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/1014.wav'
+                songName: 'Somewhat Angry - "I\'m on my way to the meeting"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/IOM_ANG_SO.wav'
             },
             {
                 position: '15',
-                songName: 'Somewhat Angry - "I think I have a doctor\'s appointment"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/1015.wav'
+                songName: 'Somewhat Angry - "Don\'t forget a jacket"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/DFA_ANG_SO.wav'
             },
             {
                 position: '16',
-                songName: 'Somewhat Angry - "I\'m on my way to the meeting"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/1016.wav'
+                songName: 'A Little Angry - "We\'ll stop in a couple of minutes"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/WSI_ANG_LI.wav'
             },
             {
                 position: '17',
                 songName: 'A Little Angry - "I wonder what this is about"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/1017.wav'
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/IWW_ANG_LI.wav'
             },
             {
                 position: '18',
-                songName: 'Somewhat Angry - "Don\'t forget a jacket"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/ANGRY/1018.wav'
+                songName: 'A Little Angry - "I think I have a doctor\'s appointment"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Angry/ITH_ANG_LI.wav'
             }
         ]
     };
@@ -103,7 +103,7 @@ export  class angryAudioPlayer extends Component {
     loadPlayList = () =>
         this.setState({
             currentPlayList: {
-                playlistCoverUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/ANGRY/1.jpeg',
+                playlistCoverUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Angry/1.jpg',
                 playlistName: 'Angry Playlist',
                 songs: this.state.songs,
                 type: 'album'
