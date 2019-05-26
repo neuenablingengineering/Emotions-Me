@@ -9,88 +9,88 @@ export  class fearAudioPlayer extends Component {
         songs: [
             {
                 position: '1',
-                songName: 'Somewhat Fearful - "The airplane is almost full"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/100.wav'
+                songName: 'Very Fearful - "That is exactly what happened"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/TIE_FEA_VE.wav'
             },
             {
                 position: '2',
-                songName: 'Somewhat Fearful - "I think I\'ve seen this before"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/10.wav'
+                songName: 'Very Fearful - "I wonder what this is about"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/IWW_FEA_VE.wav'
             },
             {
                 position: '3',
-                songName: 'A Little Fearful - "Maybe tomorrow it will be cold"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/1000.wav'
+                songName: 'Very Fearful - "Don\'t forget a jacket"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/DFA_FEA_VE.wav'
             },
             {
                 position: '4',
-                songName: 'Very Fearful - "Don\'t forget a jacket"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/104.wav'
+                songName: 'Very Fearful - "I would like a new alarm clock"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/IWL_FEA_VE.wav'
             },
             {
                 position: '5',
-                songName: 'A Little Fearful - "That is exactly what happened"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/1005.wav'
+                songName: 'Very Fearful - "It\'s 11 o\'clock"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/IEO_FEA_VE.wav'
             },
             {
                 position: '6',
-                songName: 'A Little Fearful - "It\'s 11 o\'clock"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/1006.wav'
+                songName: 'Somewhat Fearful - "The airplane is almost full"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/TAI_FEA_SO.wav'
             },
             {
                 position: '7',
-                songName: 'Somewhat Fearful - "I wonder what this is about"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/1007.wav'
+                songName: 'Somewhat Fearful - "I think I\'ve seen this before"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/ITS_FEA_SO.wav'
             },
             {
                 position: '8',
-                songName: 'A Little Fearful - "I think I have a doctor\'s appointment"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/1008.wav'
+                songName: 'Somewhat Fearful - "I wonder what this is about"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/IWW_FEA_SO.wav'
             },
             {
                 position: '9',
-                songName: 'Very Fearful - "It\'s 11 o\'clock"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/1009.wav'
+                songName: 'Somewhat Fearful - "Maybe tomorrow it will be cold"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/MTI_FEA_SO.wav'
             },
             {
                 position: '10',
-                songName: 'Somewhat Fearful - "Maybe tomorrow it will be cold"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/1010.wav'
+                songName: 'Somewhat Fearful - "It\'s 11 o\'clock"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/IEO_FEA_SO.wav'
             },
             {
                 position: '11',
-                songName: 'Somewhat Fearful - "Don\'t forget a jacket"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/1011.wav'
+                songName: 'Somewhat Fearful - "That is exactly what happened"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/TIE_FEA_SO.wav'
             },
             {
                 position: '12',
-                songName: 'A Little Fearful - "Don\'t forget a jacket"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/1012.wav'
+                songName: 'Somewhat Fearful - "Don\'t forget a jacket"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/DFA_FEA_SO.wav'
             },
             {
                 position: '13',
-                songName: 'Somewhat Fearful - "It\'s 11 o\'clock"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/1013.wav'
+                songName: 'A Little Fearful - "I think I have a doctor\'s appointment"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/ITH_FEA_LI.wav'
             },
             {
                 position: '14',
-                songName: 'Very Fearful - "I would like a new alarm clock"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/1014.wav'
+                songName: 'A Little Fearful - "Don\'t forget a jacket"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/DFA_FEA_LI.wav'
             },
             {
                 position: '15',
-                songName: 'Somewhat Fearful - "That is exactly what happened"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/1015.wav'
+                songName: 'A Little Fearful - "Maybe tomorrow it will be cold"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/MTI_FEA_LI.wav'
             },
             {
                 position: '16',
-                songName: 'Very Fearful - "That is exactly what happened"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/1016.wav'
+                songName: 'A Little Fearful - "That is exactly what happened"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/TIE_FEA_LI.wav'
             },
             {
                 position: '17',
-                songName: 'Very Fearful - "I wonder what this is about"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/FEAR/1017.wav'
+                songName: 'A Little Fearful - "It\'s 11 o\'clock"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Fear/IEO_FEA_LI.wav'
             }
         ],
     };
@@ -98,7 +98,7 @@ export  class fearAudioPlayer extends Component {
     loadPlayList = () =>
         this.setState({
             currentPlayList: {
-                playlistCoverUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/ANGRY/1.jpeg',
+                playlistCoverUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Fear/1.jpg',
                 playlistName: 'FEAR Playlist',
                 songs: this.state.songs,
                 type: 'album'
