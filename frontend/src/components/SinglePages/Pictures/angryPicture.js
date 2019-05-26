@@ -51,11 +51,10 @@ export class angryPictureCarousel extends Component {
                                 minSwipeThreshold={40}
                                 swipeTimeThreshold={200}
                                 images={[
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/ANGRY/1.jpeg",
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/ANGRY/3.jpeg",
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/ANGRY/6.jpeg",
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/ANGRY/9.jpeg",
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/ANGRY/10.jpeg",
+                                    "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Angry/1.jpg",
+                                    "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Angry/2.jpg",
+                                    "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Angry/3.jpg",
+                                    "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Angry/4.jpg",
                                 ]}
                             />
                         )}
