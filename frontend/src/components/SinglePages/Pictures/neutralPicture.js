@@ -51,10 +51,9 @@ export class neutralPictureCarousel extends Component {
                                 minSwipeThreshold={40}
                                 swipeTimeThreshold={200}
                                 images={[
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/NEUTRAL/1.jpg",
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/NEUTRAL/2.jpg",
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/NEUTRAL/3.jpg",
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/NEUTRAL/4.jpg",
+                                    "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Neutral/1.jpg",
+                                    "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Neutral/2.jpg",
+                                    "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Neutral/3.jpg",
                                 ]}
                             />
                         )}
