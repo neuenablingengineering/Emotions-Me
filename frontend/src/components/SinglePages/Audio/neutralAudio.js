@@ -10,27 +10,27 @@ export  class neutralAudioPlayer extends Component {
             {
                 position: '1',
                 songName: 'Neutral - "It\'s 11 o\'clock"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/NEUTRAL/1.wav'
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Neutral/IEO_NEU.wav'
             },
             {
                 position: '2',
                 songName: 'Neutral - "We\'ll stop in a couple of minutes"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/NEUTRAL/2.wav'
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Neutral/WSI_NEU.wav'
             },
             {
                 position: '3',
                 songName: 'Neutral - "The surface is slick"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/NEUTRAL/3.wav'
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Neutral/TSI_NEU.wav'
             },
             {
                 position: '4',
                 songName: 'Neutral - "I think I\'ve seen this before"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/NEUTRAL/4.wav'
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Neutral/ITS_NEU.wav'
             },
             {
                 position: '5',
                 songName: 'Neutral - "Maybe tomorrow it will be cold"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/NEUTRAL/6.wav'
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Neutral/MTI_NEU.wav'
             }
         ]
     };
@@ -38,7 +38,7 @@ export  class neutralAudioPlayer extends Component {
     loadPlayList = () =>
         this.setState({
             currentPlayList: {
-                playlistCoverUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/NEUTRAL/4.jpeg',
+                playlistCoverUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Neutral/1.jpg',
                 playlistName: 'Angry Playlist',
                 songs: this.state.songs,
                 type: 'album'
