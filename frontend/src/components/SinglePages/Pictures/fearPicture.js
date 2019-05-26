@@ -51,12 +51,10 @@ export class fearPictureCarousel extends Component {
                                 minSwipeThreshold={40}
                                 swipeTimeThreshold={200}
                                 images={[
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/FEAR/1.jpg",
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/FEAR/2.jpg",
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/FEAR/3.jpg",
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/FEAR/4.jpg",
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/FEAR/6.jpg",
-                                    "https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/FEAR/7.jpg",
+                                    "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Fear/1.jpg",
+                                    "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Fear/2.jpg",
+                                    "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Fear/3.jpg",
+                                    "https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Fear/4.jpg",
                                 ]}
                             />
                         )}
