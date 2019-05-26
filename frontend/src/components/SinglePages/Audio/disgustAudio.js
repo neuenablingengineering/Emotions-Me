@@ -10,82 +10,82 @@ export  class disgustAudioPlayer extends Component {
             {
                 position: '1',
                 songName: 'Very Disgusted - "It\'s 11 o\'clock"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/DISGUST/0.wav'
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Disgust/IEO_DIS_VE.wav'
             },
             {
                 position: '2',
-                songName: 'Somewhat Disgusted - "It\'s 11 o\'clock" 1',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/DISGUST/10.wav'
+                songName: 'Very Disgusted - "I would like a new alarm clock"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Disgust/IWL_DIS_VE.wav'
             },
             {
                 position: '3',
-                songName: 'Somewhat Disgusted - "I wonder what this is about"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/DISGUST/1000.wav'
+                songName: 'Very Disgusted - "The surface is slick"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Disgust/TSI_DIS_VE.wav'
             },
             {
                 position: '4',
-                songName: 'Somewhat Disgusted - "We\'ll stop in a couple of minutes"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/DISGUST/104.wav'
+                songName: 'Very Disgusted - "I\'m on my way to the meeting"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Disgust/IOM_DIS_VE.wav'
             },
             {
                 position: '5',
-                songName: 'Very Disgusted - "The airplane is almost full"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/DISGUST/1005.wav'
+                songName: 'Very Disgusted - "I think I have a doctor\'s appointment"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Disgust/ITH_DIS_VE.wav'
             },
             {
                 position: '6',
-                songName: 'A Little Disgusted - "It\'s 11 o\'clock"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/DISGUST/1006.wav'
+                songName: 'Very Disgusted - "The airplane is almost full"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Disgust/TAI_DIS_VE.wav'
             },
             {
                 position: '7',
-                songName: 'A Little Disgusted - "Don\'t forget a jacket"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/DISGUST/1007.wav'
+                songName: 'Somewhat Disgusted - "It\'s 11 o\'clock" 1',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Disgust/IEO_DIS_SO1.wav'
             },
             {
                 position: '8',
-                songName: 'Somewhat Disgusted - "It\'s 11 o\'clock" 2',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/DISGUST/1008.wav'
+                songName: 'Somewhat Disgusted - "I wonder what this is about"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Disgust/IWW_DIS_SO.wav'
             },
             {
                 position: '9',
-                songName: 'Very Disgusted - "I\'m on my way to the meeting"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/DISGUST/1009.wav'
+                songName: 'Somewhat Disgusted - "We\'ll stop in a couple of minutes"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Disgust/WSI_DIS_SO.wav'
             },
             {
                 position: '10',
-                songName: 'Very Disgusted - "I think I have a doctor\'s appointment"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/DISGUST/1010.wav'
+                songName: 'Somewhat Disgusted - "It\'s 11 o\'clock" 2',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Disgust/IEO_DIS_SO2.wav'
             },
             {
                 position: '11',
                 songName: 'Somewhat Disgusted - "I\'m on my way to the meeting"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/DISGUST/1011.wav'
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Disgust/IOM_DIS_SO.wav'
             },
             {
                 position: '12',
-                songName: 'Very Disgusted - "The surface is slick"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/DISGUST/1012.wav'
+                songName: 'Somewhat Disgusted - "The airplane is almost full"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Disgust/TAI_DIS_SO.wav'
             },
             {
                 position: '13',
-                songName: 'Somewhat Disgusted - "The airplane is almost full"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/DISGUST/1014.wav'
+                songName: 'A Little Disgusted - "It\'s 11 o\'clock"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Disgust/IEO_DIS_LI.wav'
             },
             {
                 position: '14',
-                songName: 'A Little Disgusted - "That is exactly what happened"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/DISGUST/1016.wav'
+                songName: 'A Little Disgusted - "Don\'t forget a jacket"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Disgust/DFA_DIS_LI.wav'
             },
             {
                 position: '15',
-                songName: 'A Little Disgusted - "I think I\'ve seen this before"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/DISGUST/1017.wav'
+                songName: 'A Little Disgusted - "That is exactly what happened"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Disgust/TIE_DIS_LI.wav'
             },
             {
                 position: '16',
-                songName: 'Very Disgusted - "I would like a new alarm clock"',
-                songUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Audio/DISGUST/1018.wav'
+                songName: 'A Little Disgusted - "I think I\'ve seen this before"',
+                songUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Audio/Disgust/ITS_DIS_LI.wav'
             }
         ],
     };
@@ -93,7 +93,7 @@ export  class disgustAudioPlayer extends Component {
     loadPlayList = () =>
         this.setState({
             currentPlayList: {
-                playlistCoverUrl: 'https://s3.us-east-2.amazonaws.com/emotions-and-me-bucket/Pictures/DISGUST/1.jpeg',
+                playlistCoverUrl: 'https://s3.amazonaws.com/emotions-and-me-bucket/Photos/Disgust/1.jpg',
                 playlistName: 'Disgust Playlist',
                 songs: this.state.songs,
                 type: 'album'
