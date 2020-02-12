@@ -1,7 +1,7 @@
 requests
 absl-py==0.7.0
 astor==0.7.1
-Django==2.1.7
+Django==2.2.10
 django-cors-headers==2.4.0
 django-health-check
 djangorestframework==3.9.1
