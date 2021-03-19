@@ -4,7 +4,7 @@ astor==0.7.1
 Django==2.1.7
 django-cors-headers==2.4.0
 django-health-check
-djangorestframework==3.9.1
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 gast==0.2.2
 grpcio==1.18.0
