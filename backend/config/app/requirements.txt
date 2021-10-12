@@ -16,7 +16,7 @@ Keras-Preprocessing==1.0.9
 librosa==0.6.3
 Markdown==3.0.1
 numpy==1.16.1
-opencv-python==4.0.0.21
+opencv-python==4.2.0.32
 pafy==0.5.4
 protobuf==3.6.1
 psycopg2==2.7.5
