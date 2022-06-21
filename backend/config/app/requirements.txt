@@ -15,7 +15,7 @@ Keras-Applications==1.0.7
 Keras-Preprocessing==1.0.9
 librosa==0.6.3
 Markdown==3.0.1
-numpy==1.16.1
+numpy==1.22.0
 opencv-python==4.0.0.21
 pafy==0.5.4
 protobuf==3.6.1
